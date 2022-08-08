@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: mistyrose;
+}
+
+h1, h2, h3 {
+    color: #1F4690;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    color: #FFA500;
+    transition: 0.5;
+}
+
+header nav ul li a:hover {
+    font-size: x-large;
+    color: #3A5BA0;
+}
+
+.anasayfa-main,
+.urunler-main  {
+    text-align: center;
+}
+
+.anasayfa-main li,
+.urunler-main li {
+    list-style-position: inside;
+}
+
+.urunler-main li {
+    margin: 25px;
+}
